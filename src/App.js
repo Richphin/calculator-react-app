@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Description from "./description";
+import Displayscreen from './Displayscreen';
+import Mainkeys from './Mainkeys';
+import Subkeys from './Subkeys';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Description/>
+      <Displayscreen displayvalue="0"/>
+      <Mainkeys keyvalue1="ac" keyvalue2="+/-" keyvalue3="%" keyvalue4="÷"/>
+      <Mainkeys keyvalue1="7" keyvalue2="8" keyvalue3="9" keyvalue4="x"/>
+      <Mainkeys keyvalue1="4" keyvalue2="5" keyvalue3="6" keyvalue4="-"/>
+      <Mainkeys keyvalue1="1" keyvalue2="2" keyvalue3="3" keyvalue4="+"/>
+      <Subkeys  keyvalue1="0" keyvalue2="." keyvalue3="="/>
     </div>
   );
 }
-
 export default App;

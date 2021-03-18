@@ -1,0 +1,30 @@
+.col1{
+	background-color: grey;
+	height: 60px;
+	font-size: 40px;
+	color: white;
+	border-left: none;
+}
+
+.row1{
+	height: 60px;
+	background-color: lightgrey;
+	text-align: center;
+	font-size: 40px;
+	border: grey 1px solid;
+}
+.row1col4{
+	height: 60px;
+	background-color: orange;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	border: grey 1px solid;
+	border-right: none;
+}
+.row6{
+	border-bottom: none;
+}
+.firstcol{
+	border-left: none;
+}
